@@ -25,6 +25,8 @@ NKRO_ENABLE = no            # Nkey Rollover - if this doesn't work, see here: ht
 #MIDI_ENABLE = no            # MIDI controls
 UNICODE_ENABLE = yes         # Unicode
 #BLUETOOTH_ENABLE = yes       # Enable Bluetooth with the Adafruit EZ-Key HID
+RGBLIGHT_ENABLE = yes
+RGB_DI_PIN = B7
 
 # Do not enable SLEEP_LED_ENABLE. it uses the same timer as BACKLIGHT_ENABLE
 SLEEP_LED_ENABLE = no    # Breathing sleep LED during USB suspend
